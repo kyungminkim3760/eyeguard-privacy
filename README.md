@@ -35,19 +35,17 @@
 
 - 포그라운드 서비스·알림: 보조 기능을 계속 실행하고 상태를 표시하기 위함
 
-- 인터넷·네트워크 상태: 광고 로딩에만 사용
-
 - 진동: 조작 시 햅틱 피드백
 
 - 플래시는 카메라 권한 없이 하드웨어 토치를 사용합니다. 위치 권한은 요청하지 않습니다.
 
-5. 광고
+5. 광고 및 네트워크
 
-- 앱은 Google AdMob 등 광고 서비스를 이용해 광고를 표시합니다(종료 시 보상형 동영상, 화면 내 광고 배너 등).
+- 앱은 광고를 표시하지 않으며, 광고 서비스(SDK)나 광고 식별자(Advertising ID)를 사용하지 않습니다.
 
-- 광고 제공을 위해 Google AdMob 등 광고 서비스가 광고 식별자(Advertising ID)와 기기 정보를 수집할 수 있습니다. 이는 각 광고 서비스가 처리하며 자세한 내용은 해당 서비스의 정책을 참고하세요.
+- 앱은 인터넷 권한을 요청하지 않으며 외부 서버와 통신하지 않습니다.
 
-- 화면·기기 내용은 절대 전송되지 않으며, 광고 제공에만 네트워크를 사용합니다. 유럽(EEA/영국)에서는 광고 표시 전 동의 화면이 나타날 수 있습니다.
+- '고객센터' 링크를 누르면 기기의 웹 브라우저가 해당 페이지를 엽니다. 앱 자체는 아무것도 전송하지 않습니다.
 
 6. 앱 이용 정보
 
@@ -105,19 +103,17 @@ The App does not collect personally identifiable information such as your name, 
 
 - Foreground service & notifications: to keep the assistant running and show its status
 
-- Internet & network state: used only to load ads
-
 - Vibration: haptic feedback on interaction
 
 - The flashlight uses the hardware torch with no camera permission. We do not request location permission.
 
-5. Advertising
+5. Advertising and Network
 
-- The App uses ad services such as Google AdMob to display ads (a rewarded video when you close the App, ad banners within the screen, etc.).
+- The App does not display ads and does not use any advertising service (SDK) or advertising identifier (Advertising ID).
 
-- To serve ads, these ad services (such as Google AdMob) may collect an advertising identifier (Advertising ID) and device information. This is handled by each ad provider; see their respective policies for details.
+- The App does not request the internet permission and does not communicate with any external server.
 
-- Your screen and device content are never transmitted — only ad serving uses the network. In the EEA/UK, a consent screen may appear before ads are shown.
+- Tapping the "Support" link opens the page in your device's web browser; the App itself does not transmit anything.
 
 6. Usage Information
 
